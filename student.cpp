@@ -6,12 +6,6 @@ class A
 		char name[150];
 		int age;
 	public:
-		/*A()
-		  {
-		  cout<<"default"<<endl;
-		  cout<<"name : "<<name<<endl;
-		  cout<<"age : "<<age<<endl;
-		  }*/
 		friend ostream & operator <<(ostream & out, A & ob4);
 		friend istream & operator >>(istream & in, A & ob4);
 		void print()
