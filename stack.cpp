@@ -1,5 +1,3 @@
-//NITHISH P
-//V25CE1N2
 #include<iostream>
 using namespace std;
 template<class ty>
